@@ -1,0 +1,140 @@
+/* bothload.css */
+.parent-box {
+    background: linear-gradient(to right, #b6ddee, whitesmoke);
+    transition: background 0.3s ease;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.up_box {
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    background-color: rgb(255, 254, 242);
+    box-shadow: 10px 10px 20px rgba(72, 62, 1, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding: 2vw 5vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.udH1 {
+    color: rgb(9, 28, 104);
+    font-size: 5vw;
+}
+
+.udh2 {
+    color: rgb(9, 28, 104);
+    font-size: 1.3vw;
+}
+
+.message {
+    margin-top: 10px;
+    color: #6b5716;
+}
+
+.inputFile-box {
+    color: rgb(9, 28, 104);
+    display: flex;
+    flex-direction: row;
+   
+    
+    gap: 200px;
+    height: 100%;
+    margin-top: 10vh;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.ExplnUd {
+    font-size: 1.5vw;
+}
+
+.file-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 3vh 0 0 0;
+}
+
+.selectedfileName {
+    color: rgb(9, 28, 104);
+    font-size: 1vw;
+}
+
+.error-message {
+    color: rgb(98, 6, 6);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bounce {
+    margin: 7vh 0 3vh 0;
+}
+
+.inputbtn {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(243, 252, 255);
+    border: none;
+    padding: 0.5vh 2.5vw;
+    cursor: pointer;
+    border-radius: 5vw;
+    font-size: 20px;
+    color: rgb(9, 28, 104);
+    box-shadow: 3px 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recordPg_Move_box {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recordPg_Btb {
+    background-color: rgb(243, 252, 255);
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 5vw;
+    font-size: 20px;
+    color: rgb(9, 28, 104);
+}
+
+.recordPg_Btb:hover,
+.inputbtn:hover,
+.btnUd:hover {
+    background: linear-gradient(to right, #7bcedd, rgb(116, 118, 241));
+  color: rgb(9, 28, 104);
+  transform: scale(1.15);
+  transition: transform 0.8s ease;
+
+}
+
+.file-input {
+    display: none;
+}

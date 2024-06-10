@@ -1,0 +1,67 @@
+.menu_bar_container {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  max-height: 7%;
+  width: 100%;
+
+}
+
+.menu_bar {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  gap: 3%;
+}
+
+.menu_bar .icon {
+  cursor: pointer;
+  color: black;
+  font-size: 40px;
+}
+
+.menu_bar .icon:hover {
+  color: lightcoral;
+  cursor: pointer;
+
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3vw;
+  padding-right: 2vw;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  padding: 1.5vh 2vh;
+  margin-right: 2vw;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 6%;
+}
+
+.nav_header {
+  padding: 1.5vh 2.5vh;
+  color: white;
+}
+
+.login_menu {
+  margin-bottom: 8%;
+
+}
+
+.logo {
+  cursor: pointer;
+}
